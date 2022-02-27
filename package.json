@@ -1,0 +1,29 @@
+{
+  "name": "changelogtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "linttest": "commitlint --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escapedcat/changelogtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/escapedcat/changelogtest/issues"
+  },
+  "homepage": "https://github.com/escapedcat/changelogtest#readme",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1"
+  }
+}
